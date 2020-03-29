@@ -48,6 +48,7 @@ table {
 }
 
 header{
+    width: 480px;
     margin-top: 5%;
 }
 
@@ -56,10 +57,9 @@ header{
 }
 
 body{
-    width: 640px;
-    margin-left: auto;
-    margin-right: auto;
+    width: auto;
     background-color: white;
+    margin-left: 15px;
 }
 
 section{
@@ -75,15 +75,19 @@ section{
     }
 
     body{
-        width: 960px;
-        margin-left: auto;
-        margin-right: auto;
+        width: auto;
         background-color: white;
         height: 100vh;
+        margin-left: 15px;
     }
 
     header{
+        width: 960px;
         margin-top: 5%;
+    }
+    main{
+        width: 960px;
+        height: 450px;
     }
     
     section{
@@ -99,6 +103,6 @@ section{
         margin-left: auto;
         width: 760px;
         height: 150px;
-        float: right;  
+        float: left; 
     }
  }   
