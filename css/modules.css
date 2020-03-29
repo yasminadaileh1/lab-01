@@ -1,0 +1,45 @@
+header nav{
+    background-color: rgb(219, 215, 215);
+    width: 480px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+footer nav{
+    clear: both;
+    background-color: rgb(219, 215, 215);;
+    width: 480px;
+    height: 80px;
+    text-align: center;
+    line-height: 75px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    margin: auto;
+}
+
+@media (min-width:747px){
+    header nav {
+        background-color: rgb(219, 215, 215);
+        width: 960px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        border: 1px solid gray;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    footer nav{
+        background-color: rgb(219, 215, 215);;
+        width: 760px;
+        height: 150px;
+        text-align: center;
+        line-height: 150px;
+        border-bottom: 1px solid gray;
+        border-right: 1px solid gray;
+        border-top: 1px solid gray;
+    }
+}
