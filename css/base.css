@@ -46,18 +46,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 header{
     margin-top: 5%;
 }
+
 *{
     box-sizing: border-box;
 }
+
 body{
     width: 640px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
 }
+
 section{
     height: 480px;
     width: 480px;
@@ -69,6 +73,7 @@ section{
     *{
         box-sizing: border-box;
     }
+
     body{
         width: 960px;
         margin-left: auto;
@@ -76,18 +81,11 @@ section{
         background-color: white;
         height: 100vh;
     }
+
     header{
         margin-top: 5%;
     }
-    footer{
-        margin-left: auto;
-        width: 760px;
-        height: 150px;
-        float: right;
-        
-    }
-
- 
+    
     section{
         height: 250px;
         width: 760px;
@@ -95,7 +93,12 @@ section{
         display: inline-flex;
         float: left;
         margin-left: 0;
-    
     }
-    
+
+    footer{
+        margin-left: auto;
+        width: 760px;
+        height: 150px;
+        float: right;  
+    }
  }   
